@@ -36,6 +36,7 @@
 - ```git add .``` Точка добавляет всё что было изменено или добавлено
 - ```git commit```
 - ```git commit -m 'Description of commit'``` Ключ -m позволяет указать загловок коммита прямо в командной строке. Без этого ключа. Откроется редактор, в котором возможно подробно указать заголовок и описание коммита
-```git commit -a -m 'Description of commit'``` Ключ -a добавляет добавляет (add) и сразу коммитит обнаруженные изменения. Но он не видит новых файлов, их надо сначала добавлять.
+- ```git commit -a -m 'Description of commit'``` Ключ -a добавляет добавляет (add) и сразу коммитит обнаруженные изменения. Но он не видит новых файлов, их надо сначала добавлять.
+- ```git push -u origin master```
 # MarkDown
 - [Шпаргалка с синтаксисом](http://ilfire.ru/kompyutery/shpargalka-po-sintaksisu-markdown-markdaun-so-vsemi-samymi-populyarnymi-tegami/)
