@@ -20,7 +20,7 @@ function isNumberOdd (num) {
 }
 isNumberOdd(7);
 */
-
+/*
 function factorial (num){
     var result = 1;
     if (num == 0){
@@ -34,4 +34,17 @@ function factorial (num){
     }
 }
 factorial(7);
+*/
 
+function ChangеSpaceToUnderscore(text){
+    var result = [];
+    for(symPos = 0; symPos < text.length; symPos++){
+         if(text[symPos] == ' '){
+            result.push('_');
+        } else {
+            result.push(text[symPos]);
+        }
+    }
+    console.log(result.join(''));
+};
+ChangеSpaceToUnderscore('Роман не крутой');
